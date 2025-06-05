@@ -14,7 +14,7 @@ class Program
 
     // IMPORTANT: Replace with your actual Google Gemini API key.
     // You can get one from Google AI Studio: https://ai.google.dev/
-    private static readonly string apiKey = "AIzaSyCFEmF11Jz7me6yiLbri6VB9AqKoES3VQ4"; // <--- REPLACE THIS WITH YOUR ACTUAL API KEY
+    private static readonly string apiKey = "YOUR_GEMINI_API_KEY_HERE"; // <--- REPLACE THIS WITH YOUR ACTUAL API KEY
 
     static async Task Main(string[] args)
     {
@@ -23,7 +23,7 @@ class Program
         Console.WriteLine("Type 'exit' to quit.\n");
 
         // Basic check for API key
-        if (string.IsNullOrEmpty(apiKey) || apiKey == "AIzaSyCFEmF11Jz7me6yiLbri6VB9AqKoES3VQ4")
+        if (string.IsNullOrEmpty(apiKey) || apiKey == "YOUR_GEMINI_API_KEY_HERE")
         {
             Console.WriteLine("");
             Console.WriteLine("You can get one from: https://ai.google.dev/\n");
