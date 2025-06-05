@@ -3,13 +3,18 @@ This project is a .NET console application serving as the backend for an AI-powe
 
 Features
 AI Integration: Connects to the Google Gemini API (gemini-2.0-flash model) to leverage advanced natural language generation capabilities.
+
 Console Interface: Provides a simple command-line interface for testing AI responses.
+
 Robust Error Handling: Includes mechanisms to catch and display API-related errors (e.g., service unavailability, network issues).
+
 Scalable Foundation: Designed as a standalone backend component, capable of being integrated with various frontend applications (like the React chat screen).
+
 Technologies Used
 Backend: .NET (C#)
 HTTP Client: HttpClient for API requests.
 JSON Handling: System.Text.Json for serializing requests and deserializing AI responses.
+
 AI API: Google Gemini API
 Setup and Running
 Follow these steps to get the backend application running on your local machine.
