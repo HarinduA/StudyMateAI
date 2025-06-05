@@ -31,8 +31,5 @@ Generate a new API Key.
     Replace "YOUR_GEMINI_API_KEY_HERE" with the actual API key you obtained from Google AI Studio.
 
 3. Run the Application
-   Open your terminal or command prompt.
-   Navigate to the root directory of the StudyMateAI project where the .csproj file is located.
-   Run the application using the .NET CLI:
-   Bash
-            dotnet run
+
+        dotnet run
