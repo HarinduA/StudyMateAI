@@ -23,16 +23,16 @@ Go to Google AI Studio.
 Sign in with your Google account.
 Generate a new API Key.
 2. Configure the API Key
-Open the Program.cs file in the project.
-Locate the apiKey variable:
-C#
+    Open the Program.cs file in the project.
+    Locate the apiKey variable:
+    C#
 
-private static readonly string apiKey = "YOUR_GEMINI_API_KEY_HERE"; // <--- REPLACE THIS WITH YOUR ACTUAL API KEY
-Replace "YOUR_GEMINI_API_KEY_HERE" with the actual API key you obtained from Google AI Studio.
+    private static readonly string apiKey = "YOUR_GEMINI_API_KEY_HERE"; // <--- REPLACE THIS WITH YOUR ACTUAL API KEY
+    Replace "YOUR_GEMINI_API_KEY_HERE" with the actual API key you obtained from Google AI Studio.
+
 3. Run the Application
-Open your terminal or command prompt.
-Navigate to the root directory of the StudyMateAI project where the .csproj file is located.
-Run the application using the .NET CLI:
-  Bash
-
-    dotnet run
+   Open your terminal or command prompt.
+   Navigate to the root directory of the StudyMateAI project where the .csproj file is located.
+   Run the application using the .NET CLI:
+   Bash
+            dotnet run
