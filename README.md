@@ -35,6 +35,14 @@ Generate a new API Key.
     private static readonly string apiKey = "YOUR_GEMINI_API_KEY_HERE"; // <--- REPLACE THIS WITH YOUR ACTUAL API KEY
     Replace "YOUR_GEMINI_API_KEY_HERE" with the actual API key you obtained from Google AI Studio.
 
+
+Rub the application with dotnet run.
+
+    dotnet clean
+    dotnet restore
+    dotnet build 
+    dotnet run
+
 3. Run the Application
 
         dotnet run
