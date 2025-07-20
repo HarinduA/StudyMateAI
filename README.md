@@ -36,13 +36,11 @@ Generate a new API Key.
     Replace "YOUR_GEMINI_API_KEY_HERE" with the actual API key you obtained from Google AI Studio.
 
 
-Rub the application with dotnet run.
+Rub the application with dotnet run and other commands.
 
     dotnet clean
     dotnet restore
     dotnet build 
     dotnet run
 
-3. Run the Application
 
-        dotnet run
